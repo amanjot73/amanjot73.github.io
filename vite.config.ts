@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/amanjot73.github.io/",
+  base: "/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
