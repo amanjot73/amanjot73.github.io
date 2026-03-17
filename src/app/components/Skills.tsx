@@ -1,3 +1,4 @@
+import React from 'react';
 import { Code2, Wrench, Brain, Database, Layers } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
