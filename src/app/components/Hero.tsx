@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
-import profileImg from "../../assets/profile.png";
+import profileImg from "../../assets/profile.webp";
 import { useState, useEffect } from 'react';
 
 const roles = [
