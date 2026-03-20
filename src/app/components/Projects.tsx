@@ -84,7 +84,7 @@ export function Projects() {
   <Button
     variant="outline"
     size="sm"
-    className="w-full bg-white text-teal-600 border-gray-300 hover:bg-teal-50 hover:text-teal-600 hover:border-teal-400 transition-all"
+    className="w-full bg-gray-100 text-black border-transparent hover:bg-teal-500 hover:text-white transition-all duration-300"
   >
     <Github className="w-4 h-4 mr-2" />
     View on GitHub
