@@ -90,7 +90,7 @@ export function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-teal-500 text-teal-400 hover:bg-teal-950 hover:text-teal-300 shadow-lg shadow-teal-500/20 hover:shadow-teal-500/40 transition-all duration-300 hover:scale-105"
+                className="bg-white border-2 border-teal-500 text-teal-400 hover:bg-teal-950 hover:text-teal-300 shadow-lg shadow-teal-500/20 hover:shadow-teal-500/40 transition-all duration-300 hover:scale-105"
                 onClick={() => window.open('https://drive.google.com/file/d/1BfGzIfL6ShpV5id1UKf7wzLDHPfoVF7S/view?usp=drive_link', '_blank')}
               >
                 <Download className="mr-2 h-4 w-4" />
