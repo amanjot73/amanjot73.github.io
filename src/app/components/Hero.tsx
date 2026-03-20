@@ -15,7 +15,7 @@ export function Hero() {
   const [isImageHovered, setIsImageHovered] = useState(false);
   const [typedText, setTypedText] = useState('');
   const [isTypingDone, setIsTypingDone] = useState(false);
-  
+
   const fullText = "I enjoy solving real-world problems through clean and efficient code. My focus lies in building scalable backend systems, data-driven applications, and intuitive user experiences. I'm continuously learning new technologies and sharpening my problem-solving skills through projects and development work.";
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export function Hero() {
       <div className="max-w-6xl w-full mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Side - Text Content */}
-          <div 
+          <div
             className="space-y-8 transition-all duration-700 ease-out"
             style={{
               transform: isImageHovered ? 'translateX(-20px)' : 'translateX(0)',
@@ -70,14 +70,14 @@ export function Hero() {
                 </span>
               </p>
             </div>
-            
+
             <p className="text-lg text-gray-300 leading-relaxed">
               {typedText}
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-teal-600 hover:bg-teal-700 shadow-lg shadow-teal-600/30 hover:shadow-teal-600/50 transition-all duration-300 hover:scale-105"
                 onClick={() => {
                   const projectsSection = document.getElementById('projects');
@@ -87,8 +87,8 @@ export function Hero() {
                 View Projects
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="border-2 border-teal-500 text-teal-400 hover:bg-teal-950 hover:text-teal-300 shadow-lg shadow-teal-500/20 hover:shadow-teal-500/40 transition-all duration-300 hover:scale-105"
                 onClick={() => window.open('https://drive.google.com/file/d/1BfGzIfL6ShpV5id1UKf7wzLDHPfoVF7S/view?usp=drive_link', '_blank')}
@@ -127,6 +127,8 @@ export function Hero() {
               <img
                 src={profileImg}
                 alt="Profile"
+                fetchPriority="high"
+                loading="eager"
                 className="relative w-[450px] h-[450px] object-cover border-[12px] border-teal-500/30 shadow-2xl ring-4 ring-teal-400/50 transition-all duration-500 group-hover:scale-110 group-hover:ring-8 group-hover:ring-teal-300/60 group-hover:border-teal-400/50"
                 style={{ animation: 'morphBorder 8s ease-in-out infinite' }}
               />

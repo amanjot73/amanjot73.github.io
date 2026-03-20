@@ -126,15 +126,17 @@ export function CodingWork() {
         <Card className="border-gray-700 bg-black text-gray-100 hover:shadow-2xl hover:shadow-green-500/10 transition-shadow">
           <CardHeader>
             <CardTitle className="text-white flex items-center gap-2 text-xl">
-              <Terminal className="w-5 h-5" />
-              {currentSnippet.title}
+              <Terminal className="w-5 h-5 flex-shrink-0" />
+              <span key={currentCodeIndex} className="inline-block" style={{ animation: 'blink 0.5s ease-in-out' }}>
+                {currentSnippet.title}
+              </span>
             </CardTitle>
-            <CardDescription className="text-gray-500">
+            <CardDescription className="text-gray-500" key={`desc-${currentCodeIndex}`} style={{ animation: 'blink 0.5s ease-in-out' }}>
               {currentSnippet.description}
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <pre className="text-sm overflow-x-auto p-4 bg-gray-950 rounded-lg border border-gray-800">
+            <pre className="text-sm overflow-x-auto p-4 bg-gray-950 rounded-lg border border-gray-800" key={`code-${currentCodeIndex}`} style={{ animation: 'blink 0.5s ease-in-out' }}>
               <code className="text-green-400">{currentSnippet.code}</code>
             </pre>
           </CardContent>

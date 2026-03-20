@@ -50,7 +50,7 @@ export function Footer() {
         <div className="text-center text-sm text-gray-400">
           <p className="flex items-center justify-center gap-2">
             © {currentYear} Amanjot Singh. Built with 
-            <Heart className="w-4 h-4 text-red-500 fill-red-500 inline mx-1" style={{ color: '#ef4444' }} /> 
+            <Heart className="w-4 h-4 text-red-500 inline" /> 
             and React
           </p>
         </div>

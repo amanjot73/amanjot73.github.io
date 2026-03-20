@@ -55,7 +55,7 @@ export function Navigation() {
               <button
                 key={idx}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-300 hover:text-teal-400 hover:bg-gray-800 px-3 py-2 rounded-lg transition-colors font-medium"
+                className="text-gray-300 hover:text-teal-400 transition-colors font-medium"
               >
                 {item.label}
               </button>
