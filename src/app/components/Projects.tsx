@@ -81,15 +81,15 @@ export function Projects() {
               {!project.comingSoon && (
                 <CardFooter className="pt-4">
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="w-full border-gray-600 text-black hover:bg-teal-950 hover:text-teal-300 hover:border-teal-600 transition-all"
-                    >
-                      <Github className="w-4 h-4 mr-2" />
-                      View on GitHub
-                    </Button>
-                  </a>
+  <Button
+    variant="outline"
+    size="sm"
+    className="w-full bg-white text-teal-600 border-gray-300 hover:bg-teal-50 hover:text-teal-600 hover:border-teal-400 transition-all"
+  >
+    <Github className="w-4 h-4 mr-2" />
+    View on GitHub
+  </Button>
+</a>
                 </CardFooter>
               )}
             </Card>
