@@ -19,7 +19,7 @@ const education = [
     institution: 'Manu Shiksha Kendra Hr. Sec. School',
     location: 'Kathua, Jammu & Kashmir',
     period: '2022 - 2023',
-    grade: 'Percentage: 92%',
+    grade: 'Percentage: 90%',
     highlights: [
       'Completed higher secondary education in the Science stream with Computer Science,\n building a strong foundation in programming and analytical thinking.',
       'Achieved School Topper recognition in Computer Science for outstanding academic\n performance.',
@@ -31,7 +31,7 @@ const education = [
     institution: 'Manu Shiksha Kendra Hr. Sec. School',
     location: 'Kathua, Jammu & Kashmir',
     period: '2020 - 2021',
-    grade: 'Percentage: 85%',
+    grade: 'Percentage: 95%',
     highlights: [
       'Built a strong academic foundation in Mathematics and Science, strengthening\n analytical and logical thinking skills.',
       'Participated in the school science fair, showcasing interest in experimentation\n and scientific learning.',
