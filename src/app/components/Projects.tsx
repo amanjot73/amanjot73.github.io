@@ -80,11 +80,11 @@ export function Projects() {
               )}
               {!project.comingSoon && (
                 <CardFooter className="pt-4">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
+                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
   <Button
     variant="outline"
     size="sm"
-    className="w-full bg-gray-100 text-black border-transparent hover:bg-teal-500 hover:text-white transition-all duration-300"
+    className="w-full bg-gray-100 text-white border-transparent hover:bg-teal-500 hover:text-white transition-all duration-300"
   >
     <Github className="w-4 h-4 mr-2" />
     View on GitHub
