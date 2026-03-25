@@ -28,6 +28,11 @@ const skillCategories = [
     icon: Brain,
     title: 'Core Concepts',
     skills: ['DSA', 'DBMS', 'Data Analysis', 'UI/UX Design', 'Machine Learning']
+  },
+  {
+    icon: Brain,
+    title: 'Soft Skills',
+    skills: ['Communication', 'Teamwork', 'Problem Solving', 'Time Management', 'Adaptability']
   }
 ];
 
