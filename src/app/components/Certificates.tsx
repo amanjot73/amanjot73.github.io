@@ -39,13 +39,6 @@ const certificates = [
     link: 'https://drive.google.com/file/d/1RqnJa1qeO4Y3ahinzhgJ6GA2bl0XqLc3/view?usp=sharing'
   },
   {
-    title: 'Cloud Computing',
-    organization: 'Nptel',
-    year: '2025',
-    category: 'Cloud Technology',
-    link: 'https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs11/Course/NPTEL25CS11S104750057904238340.pdf'
-  },
-  {
     title: 'Object Oriented Programming',
     organization: 'Lovely Professional University',
     year: '2024',
